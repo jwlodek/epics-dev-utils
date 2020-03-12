@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Version of installSynApps to setup
-INSTALL_SYNAPPS_VERSION=R2-4
+INSTALL_SYNAPPS_VERSION=R2-5
 
 # Install-Configuration version
 CONFIG_VERSION=R3-8
@@ -23,8 +23,8 @@ cd epics
 mkdir utils
 mkdir src
 mkdir iocs
-mkdir prod
-mkdir dev
+mkdir production
+mkdir devel
 mkdir css
 
 echo "Grabbing selected release of installSynApps: $INSTALL_SYNAPPS_VERSION..."
